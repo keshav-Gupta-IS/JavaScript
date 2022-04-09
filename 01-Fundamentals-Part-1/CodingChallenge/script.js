@@ -16,7 +16,7 @@ m tall.
 m tall.
 */
 
-let marksWeight = 78;
+/*let marksWeight = 78;
 
 let johnsWeight = 92;
 
@@ -31,6 +31,10 @@ let johnsBMI = johnsWeight / (johnsHeight ** 2);
 if (marksBMI > johnsBMI) {
     //console.log('Marks BMI ' + '(' + marksBMI + ')' + 'is higher than'  + ' Johns BMI ' + '(' + johnsBMI + ')');
     //String literal example
-    console.log(`Mark's BMI ${(marksBMI)} is greater then John's BMI ${johnsBMI}`)
+    console.log(`Mark's BMI ${(marksBMI)} is higher then John's BMI ${johnsBMI}`);
+} else {
+console.log(`Mark's BMI ${(marksBMI)} is lower then John's BMI ${johnsBMI}`)
 }
+*/
+
 
