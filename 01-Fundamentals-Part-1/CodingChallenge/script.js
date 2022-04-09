@@ -28,7 +28,9 @@ let marksBMI = marksWeight / (marksHeight ** 2);
 
 let johnsBMI = johnsWeight / (johnsHeight ** 2);
 
-let markHigherBMI = marksBMI > johnsBMI;
+if (marksBMI > johnsBMI) {
+    //console.log('Marks BMI ' + '(' + marksBMI + ')' + 'is higher than'  + ' Johns BMI ' + '(' + johnsBMI + ')');
+    //String literal example
+    console.log(`Mark's BMI ${(marksBMI)} is greater then John's BMI ${johnsBMI}`)
+}
 
-console.log('Marks BMI ' + marksBMI + ' Johns BMI '
-    + johnsBMI + ' Is Mark Higher BMI? ' + markHigherBMI);
